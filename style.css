@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana;
+  background-image: url("bleen.png");
+}a:link {
+  color: white;
+}
+
+a:visited {
+ color: white;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+a:active {  background-color: hotpink;
+  
+   
+}  
