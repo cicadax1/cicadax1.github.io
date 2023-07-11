@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: ZCOOL QingKe HuangYou;
+font-family: 'ZCOOL QingKe HuangYou', sans-serif;
   background-image: url("bleen.png");
 }a:link {
   color: white;
