@@ -1,24 +1,15 @@
+/* ---------------------------------------------------------------- */
+
 body {
-  background-color: black;
-  color: white;
-font-family: 'ZCOOL QingKe HuangYou', sans-serif;
-  background-image: url("bleen.png");
-}a:link {
-  color: white;
+    background-color: black;
 }
 
-a:visited {
- color: white;
+h2, p, #Paragraph {
+    color: #ffffff;
+    font-family: "Tahoma", serif;
 }
 
-a:hover {
-  background-color: blue;
-}
-
-a:active {  background-color: hotpink;
-  
-   
-}  
+/* ---------------------------------------------------------------- */
 
 #TextAlignCenter {
     text-align: center;
@@ -31,3 +22,21 @@ a:active {  background-color: hotpink;
 #TextAlignRight {
     text-align: right;
 }
+/* ---------------------------------------------------------------- */
+
+#ImageAlignLeft {
+    text-align: right;
+}
+
+/* ================================================================ */
+/* ---------------------------------------------------------------- */
+
+#Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 70px;
+}
+
+/* ---------------------------------------------------------------- */
