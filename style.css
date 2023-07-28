@@ -19,3 +19,15 @@ a:active {  background-color: hotpink;
   
    
 }  
+
+#TextAlignCenter {
+    text-align: center;
+}
+
+#TextAlignLeft {
+    text-align: left;
+}
+
+#TextAlignRight {
+    text-align: right;
+}
