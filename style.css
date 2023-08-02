@@ -1,12 +1,11 @@
 /* ---------------------------------------------------------------- */
 body {
-font-family: 'ZCOOL QingKe HuangYou',
     background-color: black;
 }
 
 h2, p, #Paragraph {
     color: #ffffff;
-    font-family: "Tahoma", serif;
+    font-family: "ZCOOL QingKe HuangYou", serif;
 }
 
 /* ---------------------------------------------------------------- */
