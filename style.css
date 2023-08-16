@@ -8,7 +8,7 @@ h2, p, #Paragraph {
     font-family: "Courier New", serif;
 }
 
- /* unvisited link */
+#navbar { /* unvisited link */
  a:link {
     color: rgb(255, 255, 255);
   }
@@ -26,7 +26,8 @@ h2, p, #Paragraph {
   /* selected link */
   a:active {
     color: rgb(255, 255, 255);
-  } 
+  } }
+
 /* ---------------------------------------------------------------- */
 
 #TextAlignCenter {
