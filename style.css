@@ -8,6 +8,11 @@ h2, p, #Paragraph {
     font-family: "Courier New", serif;
 }
 
+h2, p, #navbar {
+    color: #ffffff;
+    font-family: "Courier New", serif;
+}
+
 #navbar { /* unvisited link */
  a:link {
     color: rgb(255, 255, 255);
