@@ -9,6 +9,17 @@
 <meta content="#18888c" data-react-helmet="true" name="theme-color" />
 
 
+<head>
+
+    <script>
+    function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
+</script>
+
+
+</head>
+
 <header>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +63,7 @@
 
 
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RETYqzXRYwQ?si=s1H1kCJQ-uPAaBHu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/RETYqzXRYwQ?si=s1H1kCJQ-uPAaBHu" title="YouTube video player" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
