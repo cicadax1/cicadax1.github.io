@@ -3,15 +3,21 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #000000;
-}
 
-h2, h1, h5, p, #Paragraph {
+    background-image: url("https://files.catbox.moe/k0bec4.jpg");
+    background-color: #006464;
+
+
+
+    h2, h1, h5, p, #Paragraph {
     color: #ffffff;
     font-family: "Courier New", serif;
 }
 
-h2, p, #navbar {
+h2, p, #navbar, header {
+
+
+}
     color: #ffffff;
     font-family: "Courier New", serif;
 }
@@ -23,7 +29,7 @@ h2, p, #navbar {
   
   /* visited link */
   a:visited {
-    color: rgb(254, 255, 254);
+    color: rgb(0, 100, 100);
   }
   
   /* mouse over link */
